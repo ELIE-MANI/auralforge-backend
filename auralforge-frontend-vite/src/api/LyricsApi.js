@@ -1,6 +1,6 @@
 export const generateLyrics = async (data) => {
     const response = await fetch (
-        "http://localhost:5000/api/generate-lyrics",
+        "http://localhost:5000/generate-lyrics",
         {
             method: "POST",
             headers: {
